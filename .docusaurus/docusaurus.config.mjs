@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "My Site github page",
+  "tagline": "Dinosaurs are cool test github",
   "favicon": "img/favicon.ico",
   "baseUrl": "/",
   "url": "https://walteroveu.github.io",
