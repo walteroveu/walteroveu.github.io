@@ -78,26 +78,21 @@ export default [
     exact: true
   },
   {
-    path: '/my-mk-page',
-    component: ComponentCreator('/my-mk-page', '4fa'),
-    exact: true
-  },
-  {
     path: '/newpage',
     component: ComponentCreator('/newpage', '9e4'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b12'),
+    component: ComponentCreator('/docs', '442'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '40b'),
+        component: ComponentCreator('/docs', 'd66'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '292'),
+            component: ComponentCreator('/docs', '1a5'),
             routes: [
               {
                 path: '/docs/category/tutorial---basics',
@@ -150,6 +145,12 @@ export default [
               {
                 path: '/docs/tutorial-basics/markdown-features',
                 component: ComponentCreator('/docs/tutorial-basics/markdown-features', '4b7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/tutorial-basics/my-mk-page',
+                component: ComponentCreator('/docs/tutorial-basics/my-mk-page', '0bb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

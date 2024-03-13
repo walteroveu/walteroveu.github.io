@@ -63,6 +63,13 @@
             "href": "/docs/tutorial-basics/congratulations",
             "docId": "tutorial-basics/congratulations",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "My Markdown page",
+            "href": "/docs/tutorial-basics/my-mk-page",
+            "docId": "tutorial-basics/my-mk-page",
+            "unlisted": false
           }
         ],
         "href": "/docs/category/tutorial---basics"
@@ -133,6 +140,12 @@
       "id": "tutorial-basics/markdown-features",
       "title": "Markdown Features",
       "description": "Docusaurus supports Markdown and a few additional features.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/my-mk-page": {
+      "id": "tutorial-basics/my-mk-page",
+      "title": "My Markdown page",
+      "description": "This is a Markdown page",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-extras/manage-docs-versions": {
