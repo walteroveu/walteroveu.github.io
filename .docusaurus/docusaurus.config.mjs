@@ -15,9 +15,9 @@ export default {
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
-    "defaultLocale": "en",
+    "defaultLocale": "zh",
     "locales": [
-      "en"
+      "zh"
     ],
     "path": "i18n",
     "localeConfigs": {}
