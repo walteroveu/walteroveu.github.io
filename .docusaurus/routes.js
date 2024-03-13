@@ -78,6 +78,11 @@ export default [
     exact: true
   },
   {
+    path: '/my-mk-page',
+    component: ComponentCreator('/my-mk-page', '4fa'),
+    exact: true
+  },
+  {
     path: '/newpage',
     component: ComponentCreator('/newpage', '9e4'),
     exact: true
