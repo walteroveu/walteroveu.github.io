@@ -8,13 +8,13 @@
     <subtitle>My Site github page Blog</subtitle>
     <icon>https://walteroveu.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
+        <title type="html"><![CDATA[myself]]></title>
         <id>https://walteroveu.github.io/blog/2024/03/13/myself</id>
         <link href="https://walteroveu.github.io/blog/2024/03/13/myself"/>
         <updated>2024-03-13T00:00:00.000Z</updated>
         <author>
             <name>Wang Hao</name>
-            <uri>https://github.com/walterove</uri>
+            <uri>https://github.com/walteroveu</uri>
         </author>
         <category label="basketball" term="basketball"/>
         <category label="FE" term="FE"/>
