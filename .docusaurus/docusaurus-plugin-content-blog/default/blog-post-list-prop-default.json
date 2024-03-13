@@ -3,6 +3,11 @@
   "items": [
     {
       "title": "Welcome",
+      "permalink": "/blog/2024/03/13/myself",
+      "unlisted": false
+    },
+    {
+      "title": "Welcome",
       "permalink": "/blog/welcome",
       "unlisted": false
     },

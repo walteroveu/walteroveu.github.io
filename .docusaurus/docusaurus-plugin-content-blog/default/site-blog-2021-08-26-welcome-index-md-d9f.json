@@ -52,6 +52,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "Welcome",
+    "permalink": "/blog/2024/03/13/myself"
+  },
   "nextItem": {
     "title": "MDX Blog Post",
     "permalink": "/blog/mdx-blog-post"

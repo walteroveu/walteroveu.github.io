@@ -5,7 +5,7 @@
  */
 export default {
   "title": "My Site github page",
-  "tagline": "Dinosaurs are cool test at github",
+  "tagline": "Docusaurus test at github pages",
   "favicon": "img/favicon.ico",
   "baseUrl": "/",
   "url": "https://walteroveu.github.io",

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7697],{563:e=>{e.exports=JSON.parse('{"label":"basketball","permalink":"/blog/tags/basketball","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
