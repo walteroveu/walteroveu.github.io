@@ -2,7 +2,7 @@
   "permalink": "/blog/2024/03/13/myself",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-03-13-myself.md",
   "source": "@site/blog/2024-03-13-myself.md",
-  "title": "Welcome",
+  "title": "myself",
   "description": "",
   "date": "2024-03-13T00:00:00.000Z",
   "formattedDate": "March 13, 2024",
@@ -26,15 +26,15 @@
     {
       "name": "Wang Hao",
       "title": "Front End Engineer",
-      "url": "https://github.com/walterove"
+      "url": "https://github.com/walteroveu"
     }
   ],
   "frontMatter": {
-    "id": "welcome",
-    "title": "Welcome",
+    "id": "myself",
+    "title": "myself",
     "author": "Wang Hao",
     "author_title": "Front End Engineer",
-    "author_url": "https://github.com/walterove",
+    "author_url": "https://github.com/walteroveu",
     "tags": [
       "basketball",
       "FE",
