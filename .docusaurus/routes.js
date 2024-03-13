@@ -78,6 +78,11 @@ export default [
     exact: true
   },
   {
+    path: '/newpage',
+    component: ComponentCreator('/newpage', '9e4'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', 'b12'),
     routes: [
