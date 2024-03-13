@@ -5,7 +5,7 @@
  */
 export default {
   "title": "My Site github page",
-  "tagline": "Dinosaurs are cool test github",
+  "tagline": "Dinosaurs are cool test at github",
   "favicon": "img/favicon.ico",
   "baseUrl": "/",
   "url": "https://walteroveu.github.io",
@@ -111,7 +111,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
