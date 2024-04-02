@@ -12,12 +12,12 @@
           "path": "/docs",
           "tagsPath": "/docs/tags",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/zh-Hans/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/haloveu/my-website/sidebars.js",
           "contentPath": "/Users/haloveu/my-website/docs",
-          "contentPathLocalized": "/Users/haloveu/my-website/i18n/en/docusaurus-plugin-content-docs/current",
+          "contentPathLocalized": "/Users/haloveu/my-website/i18n/zh-Hans/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "id": "intro",
@@ -65,8 +65,8 @@
                 "permalink": "/docs/tutorial-basics/deploy-your-site"
               },
               "next": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "title": "My Markdown page",
+                "permalink": "/docs/tutorial-basics/my-mk-page"
               }
             },
             {
@@ -205,6 +205,30 @@
               }
             },
             {
+              "id": "tutorial-basics/my-mk-page",
+              "title": "My Markdown page",
+              "description": "This is a Markdown page",
+              "source": "@site/docs/tutorial-basics/my-mk-page.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/my-mk-page",
+              "permalink": "/docs/tutorial-basics/my-mk-page",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/my-mk-page.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Congratulations!",
+                "permalink": "/docs/tutorial-basics/congratulations"
+              },
+              "next": {
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/category/tutorial---extras"
+              }
+            },
+            {
               "id": "tutorial-extras/manage-docs-versions",
               "title": "Manage Docs Versions",
               "description": "Docusaurus can manage multiple versions of your docs.",
@@ -291,6 +315,10 @@
                   {
                     "type": "doc",
                     "id": "tutorial-basics/congratulations"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "tutorial-basics/my-mk-page"
                   }
                 ],
                 "link": {
@@ -332,6 +360,58 @@
       "blogSidebarTitle": "Recent posts",
       "blogPosts": [
         {
+          "id": "/2024/03/13/myself",
+          "metadata": {
+            "permalink": "/blog/2024/03/13/myself",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-03-13-myself.md",
+            "source": "@site/blog/2024-03-13-myself.md",
+            "title": "myself",
+            "description": "",
+            "date": "2024-03-13T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "basketball",
+                "permalink": "/blog/tags/basketball"
+              },
+              {
+                "label": "FE",
+                "permalink": "/blog/tags/fe"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Wang Hao",
+                "title": "Front End Engineer",
+                "url": "https://github.com/walteroveu"
+              }
+            ],
+            "frontMatter": {
+              "id": "myself",
+              "title": "myself",
+              "author": "Wang Hao",
+              "author_title": "Front End Engineer",
+              "author_url": "https://github.com/walteroveu",
+              "tags": [
+                "basketball",
+                "FE",
+                "docusaurus"
+              ]
+            },
+            "unlisted": false,
+            "nextItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            }
+          },
+          "content": ""
+        },
+        {
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
@@ -340,7 +420,6 @@
             "title": "Welcome",
             "description": "Docusaurus blogging features are powered by the blog plugin.",
             "date": "2021-08-26T00:00:00.000Z",
-            "formattedDate": "August 26, 2021",
             "tags": [
               {
                 "label": "facebook",
@@ -387,6 +466,10 @@
               ]
             },
             "unlisted": false,
+            "prevItem": {
+              "title": "myself",
+              "permalink": "/blog/2024/03/13/myself"
+            },
             "nextItem": {
               "title": "MDX Blog Post",
               "permalink": "/blog/mdx-blog-post"
@@ -403,7 +486,6 @@
             "title": "MDX Blog Post",
             "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
             "date": "2021-08-01T00:00:00.000Z",
-            "formattedDate": "August 1, 2021",
             "tags": [
               {
                 "label": "docusaurus",
@@ -452,7 +534,6 @@
             "title": "Long Blog Post",
             "description": "This is the summary of a very long blog post,",
             "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "May 29, 2019",
             "tags": [
               {
                 "label": "hello",
@@ -504,7 +585,6 @@
             "title": "First Blog Post",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
             "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "May 28, 2019",
             "tags": [
               {
                 "label": "hola",
@@ -553,6 +633,7 @@
       "blogListPaginated": [
         {
           "items": [
+            "/2024/03/13/myself",
             "welcome",
             "mdx-blog-post",
             "long-blog-post",
@@ -563,13 +644,93 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 4,
+            "totalCount": 5,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
       "blogTags": {
+        "/blog/tags/basketball": {
+          "label": "basketball",
+          "items": [
+            "/2024/03/13/myself"
+          ],
+          "permalink": "/blog/tags/basketball",
+          "pages": [
+            {
+              "items": [
+                "/2024/03/13/myself"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/basketball",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/fe": {
+          "label": "FE",
+          "items": [
+            "/2024/03/13/myself"
+          ],
+          "permalink": "/blog/tags/fe",
+          "pages": [
+            {
+              "items": [
+                "/2024/03/13/myself"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/fe",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
+        "/blog/tags/docusaurus": {
+          "label": "docusaurus",
+          "items": [
+            "/2024/03/13/myself",
+            "welcome",
+            "mdx-blog-post",
+            "long-blog-post",
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "/2024/03/13/myself",
+                "welcome",
+                "mdx-blog-post",
+                "long-blog-post",
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 5,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ],
+          "unlisted": false
+        },
         "/blog/tags/facebook": {
           "label": "facebook",
           "items": [
@@ -620,36 +781,6 @@
           ],
           "unlisted": false
         },
-        "/blog/tags/docusaurus": {
-          "label": "docusaurus",
-          "items": [
-            "welcome",
-            "mdx-blog-post",
-            "long-blog-post",
-            "first-blog-post"
-          ],
-          "permalink": "/blog/tags/docusaurus",
-          "pages": [
-            {
-              "items": [
-                "welcome",
-                "mdx-blog-post",
-                "long-blog-post",
-                "first-blog-post"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/docusaurus",
-                "page": 1,
-                "postsPerPage": 10,
-                "totalPages": 1,
-                "totalCount": 4,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ],
-          "unlisted": false
-        },
         "/blog/tags/hola": {
           "label": "hola",
           "items": [
@@ -693,6 +824,24 @@
         "description": "You don't need React to write simple standalone pages.",
         "frontMatter": {
           "title": "Markdown page example"
+        },
+        "unlisted": false
+      },
+      {
+        "type": "jsx",
+        "permalink": "/newpage",
+        "source": "@site/src/pages/newpage.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/testPage",
+        "source": "@site/src/pages/testPage.md",
+        "title": "我的问候页面标题",
+        "description": "我的问候页面描述",
+        "frontMatter": {
+          "title": "我的问候页面标题",
+          "description": "我的问候页面描述",
+          "hide_table_of_contents": true
         },
         "unlisted": false
       }

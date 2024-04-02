@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site github page",
-  "tagline": "Docusaurus test at github pages",
+  "title": "Wh 的个人博客",
+  "tagline": "人生是一场旅行",
   "favicon": "img/favicon.ico",
   "baseUrl": "/",
   "url": "https://walteroveu.github.io",
@@ -15,9 +15,9 @@ export default {
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
-    "defaultLocale": "zh",
+    "defaultLocale": "zh-Hans",
     "locales": [
-      "zh"
+      "zh-Hans"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -43,27 +43,31 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "My Site",
+      "title": "",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "My Logo",
+        "src": "img/wh.png",
+        "width": 32,
+        "height": 32,
+        "className": "custom-navbar-logo-class"
       },
       "items": [
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "文档"
+        },
+        {
+          "type": "localeDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
         },
         {
           "to": "/blog",
-          "label": "Blog",
+          "label": "博客",
           "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -75,25 +79,21 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "文档",
               "to": "/docs/intro"
+            },
+            {
+              "label": "test",
+              "to": "/testPage"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "About",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "GitHub",
+              "href": "https://github.com/walteroveu/walteroveu.github.io"
             }
           ]
         },
@@ -105,8 +105,8 @@ export default {
               "to": "/blog"
             },
             {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "label": "语雀",
+              "href": "https://www.yuque.com/haloveu/athozi/dacm7i"
             }
           ]
         }
@@ -336,6 +336,7 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
