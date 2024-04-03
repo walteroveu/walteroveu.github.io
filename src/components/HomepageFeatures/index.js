@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '站在球场',
+    Svg: require('@site/static/img/fun-ball.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        无论身处何地 总有一种想去站在球场上的冲动 尽情感受奔跑 跳跃 挥洒汗水
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '戴上耳机',
+    Svg: require('@site/static/img/fun-music.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        无论状态如何 戴上耳机 音符会带着你飞跃神圣高原 潜入无底深海 穿过人声鼎沸 领略四季变换
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '开黑集合',
+    Svg: require('@site/static/img/fun-games.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        曾经少年 如今依旧 从小霸王的魂斗罗 到 外设齐全的cs 变的是外在 不变的是热爱 你喊我就来
       </>
     ),
   },
@@ -38,12 +35,12 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
+      <div className="text--center main-color-font">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <Heading as="h3" className="main-color-font">{title}</Heading>
+        <p className="main-color-font">{description}</p>
       </div>
     </div>
   );
@@ -52,7 +49,7 @@ function Feature({Svg, title, description}) {
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
+      <div className="container"> 
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

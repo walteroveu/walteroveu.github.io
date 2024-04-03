@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import SVG  from '@site/static/img/life-key.svg';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -10,21 +11,33 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/blog">
-            博客传送门
+    // <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    //   <div className="container">
+    //     <Heading as="h1" className="hero__title">
+    //       {siteConfig.title}
+    //     </Heading>
+    //     <p className="hero__subtitle">{siteConfig.tagline}</p>
+    //     <div className={styles.buttons}>
+    //       <Link
+    //         className="button button--secondary button--lg"
+    //         to="/blog">
+    //         博客传送门
+    //       </Link>
+    //     </div>
+    //   </div>
+    // </header>
+    <div class="hero shadow--lw">
+      <div class="container">
+        <h1 class="hero__title hero--primary">wh</h1>
+        <p class="hero__subtitle typewriter">人生是一场旅行 可以休息 但是不要停下脚步 经历过才算拥有</p>
+        <SVG role="img" width={50} height={100} className='my-life-key' />
+        <div>
+          <Link class="button button--secondary button--outline button--lg" to="/blog">
+            我的博客
           </Link>
         </div>
       </div>
-    </header>
+    </div>
   )
 }
 
@@ -34,9 +47,9 @@ export default function Home() {
     <Layout
       title={`欢迎浏览 ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      {/* <HomepageHeader /> */}
+      <HomepageHeader />
       <main>
-        {/* <HomepageFeatures /> */}
+        <HomepageFeatures />
       </main>
     </Layout>
   )

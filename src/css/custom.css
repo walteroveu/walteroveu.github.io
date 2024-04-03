@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #29435b;
-  --ifm-color-primary-dark: #253c52;
-  --ifm-color-primary-darker: #23394d;
-  --ifm-color-primary-darkest: #1d2f40;
-  --ifm-color-primary-light: #2d4a64;
-  --ifm-color-primary-lighter: #2f4d69;
-  --ifm-color-primary-lightest: #355776;
+  --ifm-color-primary: #42a6d8;
+  --ifm-color-primary-dark: #2b9bd2;
+  --ifm-color-primary-darker: #2992c7;
+  --ifm-color-primary-darkest: #2278a4;
+  --ifm-color-primary-light: #59b1dd;
+  --ifm-color-primary-lighter: #65b7df;
+  --ifm-color-primary-lightest: #88c7e6;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -39,4 +39,59 @@
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+[data-theme='dark'] .footer__link-item:hover {
+  color: #b7874b;;
+}
+
+/* .animate-svg:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+} */
+.my-life-key {
+  height: 170px;
+  width: 170px;
+  display: inline;
+  float: right;
+  margin: 0 100px;
+}
+
+.main-color-font {
+  color: #1c1e21;
+}
+[data-theme='dark'] .main-color-font {
+  color: #f9f9f9;
+}
+
+
+ 
+
+.typewriter {
+  /*transform: translate(-50%, -50%);
+  *//*font-weight: bold;
+  *//*font-family: monospace;
+  */overflow: hidden;
+  display: inline-block;
+  /*使用右边框作为打印的指针光标*/border-right: .1em solid orange;
+  /*要设置不允许换行，且溢出隐藏*/white-space: nowrap;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  letter-spacing: .16em;
+  animation: typing 5s steps(60, end), blink-caret .8s step-end infinite;
+  -webkit-animation: typing 5s steps(60, end), blink-caret .8s step-end infinite;
+}
+ 
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 32em }
+}
+ 
+/**光标动画 */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange;}
 }
