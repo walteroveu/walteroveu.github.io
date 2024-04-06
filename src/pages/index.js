@@ -29,7 +29,7 @@ function HomepageHeader() {
     <div class="hero shadow--lw">
       <div class="container">
         <h1 class="hero__title hero--primary">wh</h1>
-        <p class="hero__subtitle typewriter">人生是一场旅行 可以休息 但是不要停下脚步 经历过才算拥有</p>
+        <p class="hero__subtitle tracking-in-contract">高山峡谷人为尺 九州四海名为峰</p>
         <SVG role="img" width={50} height={100} className='my-life-key' />
         <div>
           <Link class="button button--secondary button--outline button--lg" to="/blog">

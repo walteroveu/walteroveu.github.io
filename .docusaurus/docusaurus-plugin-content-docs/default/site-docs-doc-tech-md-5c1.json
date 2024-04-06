@@ -1,0 +1,19 @@
+{
+  "id": "doc_tech",
+  "title": "test",
+  "description": "",
+  "source": "@site/docs/doc_tech.md",
+  "sourceDirName": ".",
+  "slug": "/doc_tech",
+  "permalink": "/docs/doc_tech",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "web",
+    "permalink": "/docs/doc_tech/web"
+  }
+}

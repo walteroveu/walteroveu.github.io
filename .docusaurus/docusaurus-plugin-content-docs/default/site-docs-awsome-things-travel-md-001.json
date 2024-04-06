@@ -1,0 +1,23 @@
+{
+  "id": "awsome-things/travel",
+  "title": "travel",
+  "description": "",
+  "source": "@site/docs/awsome-things/travel.md",
+  "sourceDirName": "awsome-things",
+  "slug": "/awsome-things/travel",
+  "permalink": "/docs/awsome-things/travel",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "/blog/docs/awsome-things/travel.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}

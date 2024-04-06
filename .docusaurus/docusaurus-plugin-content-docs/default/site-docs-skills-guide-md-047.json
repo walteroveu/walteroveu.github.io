@@ -1,0 +1,25 @@
+{
+  "id": "skills/guide",
+  "title": "技术笔记",
+  "description": "Are you ready to create the documentation site for your open source project?",
+  "source": "@site/docs/skills/guide.md",
+  "sourceDirName": "skills",
+  "slug": "/guide",
+  "permalink": "/docs/guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "guide",
+    "sidebar_position": 1,
+    "slug": "/guide",
+    "title": "技术笔记"
+  },
+  "sidebar": "skills",
+  "next": {
+    "title": "web相关的一些记录",
+    "permalink": "/docs/web_guide"
+  }
+}

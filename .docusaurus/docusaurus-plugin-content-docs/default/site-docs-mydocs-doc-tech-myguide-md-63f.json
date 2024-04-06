@@ -1,0 +1,31 @@
+{
+  "id": "mydocs/doc_tech/guides-myself",
+  "title": "自我介绍",
+  "description": "自我介绍",
+  "source": "@site/docs/mydocs/doc_tech/myguide.md",
+  "sourceDirName": "mydocs/doc_tech",
+  "slug": "/guides-myself",
+  "permalink": "/docs/guides-myself",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "guides-myself",
+    "slug": "/guides-myself",
+    "title": "自我介绍",
+    "authors": "wh",
+    "keywords": [
+      "guides"
+    ]
+  },
+  "sidebar": "mydocs",
+  "previous": {
+    "title": "技术笔记",
+    "permalink": "/docs/mydocs"
+  },
+  "next": {
+    "title": "技术笔记",
+    "permalink": "/docs/web-basic"
+  }
+}

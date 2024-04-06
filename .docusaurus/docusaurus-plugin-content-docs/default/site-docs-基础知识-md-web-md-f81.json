@@ -1,0 +1,23 @@
+{
+  "id": "基础知识.md/web",
+  "title": "web",
+  "description": "",
+  "source": "@site/docs/基础知识.md/web.md",
+  "sourceDirName": "基础知识.md",
+  "slug": "/基础知识.md/web",
+  "permalink": "/docs/基础知识.md/web",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "/blog/docs/基础知识.md/web.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "技术文档",
+    "permalink": "/docs/技术文档"
+  }
+}

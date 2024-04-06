@@ -1,0 +1,23 @@
+{
+  "id": "basic_tech/web",
+  "title": "web",
+  "description": "",
+  "source": "@site/docs/basic_tech/web.md",
+  "sourceDirName": "basic_tech",
+  "slug": "/basic_tech/web",
+  "permalink": "/docs/basic_tech/web",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "/blog/docs/basic_tech/web.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "技术文档",
+    "permalink": "/docs/技术文档"
+  }
+}

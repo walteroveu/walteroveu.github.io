@@ -45,15 +45,10 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -80,15 +75,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'skills',
             position: 'left',
             label: '文档',
           },
+          {to: '/blog', label: '博客', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
           },
-          {to: '/blog', label: '博客', position: 'left'}
         ],
       },
       footer: {
@@ -99,7 +94,7 @@ const config = {
             items: [
               {
                 label: '文档',
-                to: '/docs/intro',
+                to: '/docs/guide',
               },
               {
                 label: 'test',

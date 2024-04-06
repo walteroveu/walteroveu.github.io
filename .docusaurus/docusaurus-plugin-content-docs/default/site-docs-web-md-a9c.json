@@ -1,0 +1,14 @@
+{
+  "id": "web",
+  "title": "web",
+  "description": "",
+  "source": "@site/docs/web.md",
+  "sourceDirName": ".",
+  "slug": "/web",
+  "permalink": "/web",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

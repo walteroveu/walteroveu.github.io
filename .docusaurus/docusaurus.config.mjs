@@ -27,12 +27,10 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "./sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -54,20 +52,20 @@ export default {
       "items": [
         {
           "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "sidebarId": "skills",
           "position": "left",
           "label": "文档"
+        },
+        {
+          "to": "/blog",
+          "label": "博客",
+          "position": "left"
         },
         {
           "type": "localeDropdown",
           "position": "right",
           "dropdownItemsBefore": [],
           "dropdownItemsAfter": []
-        },
-        {
-          "to": "/blog",
-          "label": "博客",
-          "position": "left"
         }
       ],
       "hideOnScroll": false
@@ -80,7 +78,7 @@ export default {
           "items": [
             {
               "label": "文档",
-              "to": "/docs/intro"
+              "to": "/docs/guide"
             },
             {
               "label": "test",

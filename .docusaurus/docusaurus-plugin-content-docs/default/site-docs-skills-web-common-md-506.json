@@ -1,0 +1,25 @@
+{
+  "id": "skills/web/common",
+  "title": "技术笔记",
+  "description": "",
+  "source": "@site/docs/skills/web/common.md",
+  "sourceDirName": "skills/web",
+  "slug": "/common",
+  "permalink": "/docs/common",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "common",
+    "slug": "/common",
+    "title": "技术笔记"
+  },
+  "sidebar": "skills",
+  "previous": {
+    "title": "web相关的一些记录",
+    "permalink": "/docs/web_guide"
+  }
+}

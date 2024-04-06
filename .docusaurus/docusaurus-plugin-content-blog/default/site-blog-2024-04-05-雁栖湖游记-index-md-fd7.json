@@ -1,0 +1,42 @@
+{
+  "permalink": "/blog/travel-to-yanqihu",
+  "source": "@site/blog/2024-04-05 雁栖湖游记/index.md",
+  "title": "雁栖湖之行|24-04-05",
+  "description": "旅行计划",
+  "date": "2024-04-05T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "Travel",
+      "permalink": "/blog/tags/travel"
+    },
+    {
+      "label": "yanqihu",
+      "permalink": "/blog/tags/yanqihu"
+    }
+  ],
+  "readingTime": 0.73,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "wh",
+      "title": "Front End Engineer",
+      "url": "https://github.com/walteroveu"
+    }
+  ],
+  "frontMatter": {
+    "slug": "travel-to-yanqihu",
+    "title": "雁栖湖之行|24-04-05",
+    "author": "wh",
+    "author_title": "Front End Engineer",
+    "author_url": "https://github.com/walteroveu",
+    "tags": [
+      "Travel",
+      "yanqihu"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "myself",
+    "permalink": "/blog/2024/03/13/myself"
+  }
+}

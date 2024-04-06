@@ -2,28 +2,13 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "雁栖湖之行|24-04-05",
+      "permalink": "/blog/travel-to-yanqihu",
+      "unlisted": false
+    },
+    {
       "title": "myself",
       "permalink": "/blog/2024/03/13/myself",
-      "unlisted": false
-    },
-    {
-      "title": "Welcome",
-      "permalink": "/blog/welcome",
-      "unlisted": false
-    },
-    {
-      "title": "MDX Blog Post",
-      "permalink": "/blog/mdx-blog-post",
-      "unlisted": false
-    },
-    {
-      "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post",
-      "unlisted": false
-    },
-    {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post",
       "unlisted": false
     }
   ]

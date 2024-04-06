@@ -1,0 +1,18 @@
+{
+  "id": "test",
+  "title": "Hello from Docusaurus",
+  "description": "Are you ready to create the documentation site for your open source project?",
+  "source": "@site/docs/test.md",
+  "sourceDirName": ".",
+  "slug": "/test",
+  "permalink": "/docs/test",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "/blog/docs/test.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "test"
+  },
+  "sidebar": "tutorialSidebar"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "基础知识",
+  "description": "5 minutes \b to learn the most important Docusaurus concepts.",
+  "slug": "/category/基础知识",
+  "permalink": "/docs/category/基础知识",
+  "navigation": {
+    "previous": {
+      "title": "技术文档",
+      "permalink": "/docs/docs_tech"
+    },
+    "next": {
+      "title": "web",
+      "permalink": "/docs/doc_tech/web"
+    }
+  }
+}

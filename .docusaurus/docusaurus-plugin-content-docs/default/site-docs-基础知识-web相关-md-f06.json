@@ -1,0 +1,23 @@
+{
+  "id": "基础知识/web相关",
+  "title": "web相关",
+  "description": "",
+  "source": "@site/docs/基础知识/web相关.md",
+  "sourceDirName": "基础知识",
+  "slug": "/基础知识/web相关",
+  "permalink": "/docs/基础知识/web相关",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "/blog/docs/基础知识/web相关.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "docs_tech",
+    "permalink": "/docs/docs_tech"
+  }
+}

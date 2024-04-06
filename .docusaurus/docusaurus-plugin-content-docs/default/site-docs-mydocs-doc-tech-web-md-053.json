@@ -1,0 +1,25 @@
+{
+  "id": "mydocs/doc_tech/web-basic",
+  "title": "技术笔记",
+  "description": "",
+  "source": "@site/docs/mydocs/doc_tech/web.md",
+  "sourceDirName": "mydocs/doc_tech",
+  "slug": "/web-basic",
+  "permalink": "/docs/web-basic",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "web-basic",
+    "slug": "/web-basic",
+    "title": "技术笔记"
+  },
+  "sidebar": "mydocs",
+  "previous": {
+    "title": "自我介绍",
+    "permalink": "/docs/guides-myself"
+  }
+}

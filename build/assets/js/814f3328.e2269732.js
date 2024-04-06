@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u96c1\u6816\u6e56\u4e4b\u884c|24-04-05","permalink":"/blog/travel-to-yanqihu","unlisted":false},{"title":"myself","permalink":"/blog/2024/03/13/myself","unlisted":false}]}')}}]);

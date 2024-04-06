@@ -1,0 +1,31 @@
+{
+  "id": "skills/web/my_guide",
+  "title": "web相关的一些记录",
+  "description": "web相关",
+  "source": "@site/docs/skills/web/my_guide.md",
+  "sourceDirName": "skills/web",
+  "slug": "/web_guide",
+  "permalink": "/docs/web_guide",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "my_guide",
+    "slug": "/web_guide",
+    "title": "web相关的一些记录",
+    "authors": "wh",
+    "keywords": [
+      "guides"
+    ]
+  },
+  "sidebar": "skills",
+  "previous": {
+    "title": "技术笔记",
+    "permalink": "/docs/guide"
+  },
+  "next": {
+    "title": "技术笔记",
+    "permalink": "/docs/common"
+  }
+}
